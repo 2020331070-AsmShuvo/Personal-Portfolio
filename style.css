@@ -1,7 +1,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
+header{
+    background-color: aqua;
+    margin-right: 10px;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -18,3 +21,56 @@ nav a{
     text-decoration: none;
     color: rgb(41, 37, 37);
 }
+p{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.btn-primary{
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    color: rgb(0, 255, 255);
+    /* padding: 15px 35px; */
+    font-size: large;
+
+}
+span{
+    color: #FD6E0A;
+}
+
+/* Header related styles:**/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.banner .profile-pic{
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
