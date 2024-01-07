@@ -39,7 +39,7 @@ p{
     background: #FD6E0A;
     border: none;
     color: rgb(0, 255, 255);
-    /* padding: 15px 35px; */
+    padding: 20px 20px;
     font-size: large;
 
 }
@@ -54,9 +54,7 @@ span{
     /* align-items: center; */
 }
 .banner .profile-pic{
-    width: 584px;
-    height: 676px;
-    flex-shrink: 0;
+   
 }
 .banner .banner-content{
     /* background-color: aquamarine; */
@@ -65,6 +63,12 @@ span{
 main{
     max-width: 1140px;
     margin-left: 230px;
+}
+.profile-image{
+    width: 700px;
+    height: 576px;
+    flex-shrink: 0;
+    margin-bottom: -3px;
 }
 .about{
     padding: 100px;
@@ -139,6 +143,34 @@ main{
     padding: 0 33px;
 }
 
+/* collums related styles*/
+.resume-column-container{
+    display: flex;
+    justify-content: space-between;
+}
+.resume-column{
+    width: 511px;
+    margin-right: 30px;
+}
+.degree{
+    margin-bottom: 10px;
+}
+.univ{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.degree-details{
+    margin-top: 0px;
+    padding-right: 40px;
+    justify-content: center;
+}
+.collumn-items hr{
+    opacity: 30%;
+}
+.download-cv{
+    align-items: center;
+    text-align: center;
+}
 
 
 
